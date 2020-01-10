@@ -1,0 +1,244 @@
+header {
+    -webkit-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.04);
+    -moz-box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.04);
+    box-shadow: 0px 6px 10px 0px rgba(0,0,0,0.04);
+}
+
+footer img{
+    width: 100px;
+    margin-bottom: 0;
+}
+
+a{
+    text-shadow: none;
+    text-decoration: none;
+    color: #08ccf3;
+    background-image: none;
+    font-weight: 500;
+
+}
+button{
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+
+.header-links{
+    
+    display: inline-block;
+    border-bottom: 2px solid rgba(71, 86, 202, 0);
+}
+
+.header-links::before, .footer-links::before {
+    content: "/ ";
+    color: #08ccf3;
+    font-weight: 800;
+}
+
+
+
+.header-links:hover{
+    border-bottom: 2px solid #08ccf3;
+    transition: border-bottom 1s ease;
+}
+
+.gatsby-image-wrapper{
+    height: 300px !important;
+    top: 12vh !important;
+    
+}
+
+.image-overlay{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 12vh;
+    left: 0;
+    z-index: -9;
+}
+
+.hero {
+    height: 500px;
+    
+}
+
+.hero-content h1{
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+}
+.hero-content p{
+    color: rgb(226, 226, 226);
+}
+.quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+blockquote {
+    display: block; 
+    font-size: 16px;
+    width: 230px;
+    margin: 0 10px;
+}
+
+.reviews p{
+    text-align: center;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.reviews a{
+    font-weight: 700;
+}
+
+
+.hero-content{
+    display: flex;
+    height: 300px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.hero-content h1 {
+    color: white;
+    display: block;
+    
+    font-size: 40px;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 0;
+}
+
+.burger-box{
+    
+    width: 30px;
+    display: none;
+    cursor: pointer;
+}
+
+.burger-line1, .burger-line2, .burger-line3{
+    width: 100%;
+    height: 3px;
+    background-color: black;
+    border-radius: 1rem;
+    margin: 5px 0;
+    transition: transform 0.5s ease-out;
+}
+.mobile-nav{
+    position: absolute;
+    display: none;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 80vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    z-index: 200;
+    transform: translateX(-80vw);
+    transition: transform 0.5s ease;
+}
+
+.whoami-section{
+    background-color: rgba(219, 219, 219, 0.2);
+    padding: 30px 20px 0px 20px;
+    margin-top: 30px;
+}
+
+h2{
+    margin: 0;
+}
+
+.whoami-section p{
+    float: left;
+    
+}
+
+.whoami-content{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.whoami-section img{
+    width: 800px;
+    border-radius: 50%;
+    position: relative;
+    top: -40px;
+    
+}
+
+hr{
+    display: block;
+    width: 40px;
+    height: 3px;
+    background-color: #08ccf3;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.open{
+    transform: translateX(0);
+    transition: transform 0.5s ease;
+}
+
+.rotate-burger1 {
+    transform: rotate(225deg);
+    position: relative;
+    top: 6px;
+    transition: transform 0.5s ease;
+}
+
+.rotate-burger2 {
+    
+    
+    transform: translateX(30px);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+.rotate-burger3 {
+    transform: rotate(-225deg);
+    position: relative;
+    top: -10px;
+    transition: transform 0.5s ease;
+}
+
+@media only screen and (max-width: 828px) {
+    header button, header ul{
+        display: none;
+    }
+
+    .mobile-nav ul{
+        display: block;
+    }
+
+    .mobile-nav {
+        display: flex;
+        position: fixed;
+    }
+
+    .burger-box{
+        display: block;
+    }
+    .whoami-section img{
+        top: 0;
+        max-width: 90vw;
+    }
+    .whoami-content{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    blockquote {
+        width: 90vw;
+        margin-bottom: 15px;
+    }
+
+    
+  }

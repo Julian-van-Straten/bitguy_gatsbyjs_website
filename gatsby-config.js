@@ -5,5 +5,31 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
+      
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `backgrounds`,
+        path: `src/Slider`, // wherever background images are stored  
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    {
+    resolve: "gatsby-plugin-react-svg",
+    options: {
+      rule: {
+        include: `/Users/Jules/gatsby/tutorial-part-three/src/Images/Bitguy_Logo.svg` // See below to configure properly
+      }
+    },
+  }
+  ],
 }
+
