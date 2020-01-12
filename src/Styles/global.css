@@ -238,7 +238,16 @@ hr{
     blockquote {
         width: 90vw;
         margin-bottom: 15px;
+        border-left: none !important;
     }
 
     
+  }
+
+  @media only screen and (max-width: 480px){
+        blockquote {
+            border-left: none !important;
+        
+           
+        }
   }

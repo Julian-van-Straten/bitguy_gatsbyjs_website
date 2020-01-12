@@ -11,9 +11,9 @@ export default (props) => {
             <div className={drawerClasses}>
                 <ul style={{ listStyle: `none`, marginBottom: `0`, marginLeft: `0` }}>
 
-                    <ListLink to="/">iPhone Repairs</ListLink>
-                    <ListLink to="/about/">Huawei Repairs</ListLink>
-                    <ListLink to="/contact/">PC/Mac Repairs</ListLink>
+                    <ListLink to="/iphone-repairs">iPhone Repairs</ListLink>
+                    <ListLink to="/huawei-repairs/">Huawei Repairs</ListLink>
+                    <ListLink to="/pc-mac-repairs/">PC/Mac Repairs</ListLink>
 
 
                 </ul>
