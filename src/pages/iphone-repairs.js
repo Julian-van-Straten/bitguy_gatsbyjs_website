@@ -27,16 +27,20 @@ export default () => (
       <p>
       Your iPhone is an essential part of your life, improving your efficiency on a daily basis by facilitating your communication with friends, family and work colleagues, organising your daily activities, and curing boredom with games, music, and more. If your smartphone gets broken or the screen gets cracked and becomes faulty, it can feel as though you’ve lost a limb.
       <p/><p>
+        <br></br>
       Bitguy is the best local iPhone repair service in Bournemouth, Dorset that can restore your device to its former glory. A quick, cheap, and highly professional service is just a call away.
       </p><p>
         <br></br>
       <h2>Professional Repair Services For iPhones & More</h2>
       Bitguy offers a friendly service right in the heart of Bournemouth, based on Nortoft Road, and can provide a range of highly-professional repair jobs on a comprehensive range of Apple iPhone devices including cracked screen repairs, charger port replacements and more, all at a cheap price.
       </p><p>
+        <br></br>
       Whether it’s a new iPhone X or a slightly older iPhone 5 it doesn’t matter, Bitguy can provide a range of services to restore the look and performance of your Apple smartphone with simply stunning results.
       </p><p>
+        <br></br>
       Thanks to our large selection of spare parts, we can usually offer a same day service on repairs for any device from the iPhone 5 and above. All of our work and new fittings also come with a 12-month warranty to provide you with complete peace of mind.
       </p><p>
+        <br></br>
       In addition to iPhone repairs, Bitguy can restore broken Macbooks and iMacs. So, if you have a problem with your Apple device, give us a call to discuss the options we have available today.
       </p><p>
         <br></br>
