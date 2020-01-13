@@ -53,6 +53,9 @@ hr{
 .price-list-content{
     height:100%;
 }
+
+
+
 @media only screen and (max-width: 828px) {
     .main-container, .price-list-content {
         flex-wrap: wrap;

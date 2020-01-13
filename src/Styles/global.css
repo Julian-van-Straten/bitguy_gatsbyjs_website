@@ -9,6 +9,14 @@ footer img{
     margin-bottom: 0;
 }
 
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+footer ul li a{
+    font-size: 16px !important;
+}
+
 a{
     text-shadow: none;
     text-decoration: none;
@@ -21,6 +29,33 @@ button{
     border-radius: 5px;
     cursor: pointer;
     outline: none;
+}
+
+.above-header{
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(32, 32, 32, 0.8);
+    padding: 10px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    height: 5vh;
+    
+}
+
+
+.above-header p div{
+    margin-left: 20px;
+}
+
+.copyright-bar{
+    color: white;
+    background-color: rgb(32, 32, 32);
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.copyright-bar a{
+    font-size: 14px !important;
 }
 
 .header-links{
@@ -44,7 +79,7 @@ button{
 
 .gatsby-image-wrapper{
     height: 300px !important;
-    top: 12vh !important;
+    top: 17vh !important;
     
 }
 
@@ -53,7 +88,7 @@ button{
     width: 100%;
     height: 300px;
     position: absolute;
-    top: 12vh;
+    top: 17vh;
     left: 0;
     z-index: -9;
 }
@@ -70,7 +105,7 @@ button{
 .hero-content p{
     color: rgb(226, 226, 226);
 }
-.quote-section {
+.home-quote-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -78,20 +113,24 @@ button{
     flex-wrap: wrap;
 }
 
-blockquote {
+
+.home-quote-section blockquote {
     display: block; 
     font-size: 16px;
     width: 230px;
-    margin: 0 10px;
+    margin: 20px 10px;
+
 }
 
-.reviews p{
+
+
+.home-reviews p{
     text-align: center;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 16px;
 }
 
-.reviews a{
+.home-reviews a{
     font-weight: 700;
 }
 
@@ -149,6 +188,7 @@ blockquote {
     background-color: rgba(219, 219, 219, 0.2);
     padding: 30px 20px 0px 20px;
     margin-top: 30px;
+    font-size: 18px;
 }
 
 h2{
@@ -170,7 +210,7 @@ h2{
     width: 800px;
     border-radius: 50%;
     position: relative;
-    top: -40px;
+    top: 10px;
     
 }
 
@@ -211,7 +251,12 @@ hr{
 }
 
 @media only screen and (max-width: 828px) {
-    header button, header ul{
+    
+    .gatsby-image-wrapper, .image-overlay{
+        top: 12vh !important;
+    }
+
+    header button, header ul, .above-header{
         display: none;
     }
 
@@ -244,10 +289,27 @@ hr{
     
   }
 
-  @media only screen and (max-width: 480px){
+  @media only screen and (max-width: 828px){
         blockquote {
             border-left: none !important;
         
            
+        }
+
+        .whoami-section{
+            display: flex;
+            flex-direction: column;
+            
+
+        }
+        .whoami-content{
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+        
+        .whoami-section img{
+            width: 300px !important;
+            
         }
   }

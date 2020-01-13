@@ -1,0 +1,82 @@
+.tg {
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-color: #9abad9;
+}
+.tg td {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #409cff;
+  color: black;
+  background-color: #ebf5ff;
+}
+.tg th {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 10px 5px;
+  border-style: solid;
+  border-width: 1px;
+  overflow: hidden;
+  word-break: normal;
+  border-color: #9abad9;
+  color: #fff;
+  background-color: #409cff;
+}
+.tg .tg-qael {
+  background-color: #409cff;
+  color: #000000;
+  border-color: #409cff;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-lbcd {
+  background-color: #409cff;
+  color: #000000;
+  border-color: #409cff;
+  text-align: left;
+  vertical-align: middle;
+}
+.tg .tg-gk0k {
+  background-color: #d2e4fc;
+  color: #000000;
+  border-color: #409cff;
+  text-align: left;
+  vertical-align: middle;
+}
+.tg .tg-33ws {
+  background-color: #d2e4fc;
+  color: #000000;
+  border-color: #409cff;
+  text-align: left;
+  vertical-align: top;
+}
+.tg .tg-q250 {
+  color: #000000;
+  border-color: #409cff;
+  text-align: left;
+  vertical-align: middle;
+}
+.tg .tg-dwuk {
+  color: #000000;
+  border-color: #409cff;
+  text-align: left;
+  vertical-align: top;
+}
+@media screen and (max-width: 828px) {
+  .tg {
+    width: auto !important;
+  }
+  .tg col {
+    width: auto !important;
+  }
+  .tg-wrap {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+}

@@ -2,10 +2,10 @@ import React from "react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default () => (
-    <div className="reviews">
+    <div className="home-reviews">
     <p>Check out our 5 star reviews on <a href="https://www.facebook.com/pg/bitguyltd/reviews/">Facebook</a> and <a href="https://www.google.com/maps/place/Bitguy/@50.7339747,-1.8636244,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x5a4837714490dba2!8m2!3d50.7339747!4d-1.8614357">Google</a></p>
     
-     <div className="quote-section">
+     <div className="home-quote-section">
        
             <blockquote>
                 <FontAwesomeIcon icon="star" color="gold" style={{ marginRight: `5px` }} /> 

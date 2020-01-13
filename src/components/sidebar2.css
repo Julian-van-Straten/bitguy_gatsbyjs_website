@@ -26,7 +26,7 @@ blockquote{
 }
 
 blockquote p{
-    font-size: 13px !important;
+    font-size: 13px;
     margin: 0;
     padding: 0;
     display: block;
