@@ -49,7 +49,7 @@ const ListLink = props => (
 const ListLink2 = props => (
   <li
     className="footer-links"
-    style={{ display: `inline-block`, marginRight: `1rem`, marginBottom: `0` }}
+    style={{ display: `inline-block`, marginLeft: `1rem`, marginBottom: `0` }}
   >
     <Link
       to={props.to}
@@ -151,7 +151,7 @@ class Layout extends React.Component {
           style={{
             maxWidth: `100vw`,
             height: `12vh`,
-            padding: `0 1rem`,
+            padding: `0 2rem`,
             display: `flex`,
             justifyContent: `space-between`,
             alignItems: `center`,
@@ -164,23 +164,26 @@ class Layout extends React.Component {
             rotate={this.state.sideDrawerOpen}
             burgerClickHandler={this.drawerToggleClickHandler}
           />
-
-          <ul style={{ listStyle: `none`, marginBottom: `0`, marginLeft: `0` }}>
-            <ListLink to="/iphone-repairs/">iPhone Repairs</ListLink>
-            <ListLink to="/huawei-repairs/">Huawei Repairs</ListLink>
-            <ListLink to="/pc-mac-repairs/">PC/Mac Repairs</ListLink>
-          </ul>
-          <button
-            style={{
-              backgroundColor: `#08ccf3`,
-              color: `#ffffff`,
-              padding: `5px 20px`,
-              border: `none`,
-              height: `45px`,
-            }}
-          >
-            Book a repair
-          </button>
+          <div className="desktop-nav" style={{ display: `flex` , alignItems: `center`}}>
+            <ul style={{ listStyle: `none`, marginBottom: `0`, marginLeft: `0` }}>
+                <ListLink to="/iphone-repairs/">iPhone Repairs</ListLink>
+                <ListLink to="/huawei-repairs/">Huawei Repairs</ListLink>
+                <ListLink to="/pc-mac-repairs/">PC/Mac Repairs</ListLink>
+            </ul>
+            <a href="/contact/">
+                <button
+                    style={{
+                    backgroundColor: `#08ccf3`,
+                    color: `#ffffff`,
+                    padding: `5px 20px`,
+                    border: `none`,
+                    height: `45px`,
+                    }}
+                >
+                    Book a repair
+                </button>
+            </a>
+          </div>
         </header>
 
         <div style={{ margin: `3rem auto`, maxWidth: 950, padding: `0 1rem` }}>
@@ -250,7 +253,7 @@ class Layout extends React.Component {
             </div>
           </footer>
           <div className="copyright-bar">
-             <p>© Copyright 2018. Bitguy LTD. | Website created by pandaface.uk</p> 
+             <p>© Copyright 2018. Bitguy LTD. | Website created by <a href="https://pandaface.uk/">PandaFace</a></p> 
             <ul style={{ listStyle: `none`, marginBottom: `0` }}>
               <ListLink2 to="/">Home</ListLink2>
               <ListLink2 to="/about/">Terms</ListLink2>

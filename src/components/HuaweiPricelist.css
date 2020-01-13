@@ -11,7 +11,7 @@
   border-width: 1px;
   overflow: hidden;
   word-break: normal;
-  border-color: #409cff;
+  border-color: #09CCF3;
   color: black;
   background-color: #ebf5ff;
 }
@@ -26,51 +26,52 @@
   word-break: normal;
   border-color: #9abad9;
   color: #fff;
-  background-color: #409cff;
+  background-color: #09CCF3;
 }
 .tg .tg-qael {
-  background-color: #409cff;
+  background-color: #09CCF3;
   color: #000000;
-  border-color: #409cff;
+  border-color: #09CCF3;
   text-align: left;
   vertical-align: top;
 }
 .tg .tg-lbcd {
-  background-color: #409cff;
+  background-color: #09CCF3;
   color: #000000;
-  border-color: #409cff;
+  border-color: #09CCF3;
   text-align: left;
   vertical-align: middle;
 }
 .tg .tg-gk0k {
-  background-color: #d2e4fc;
+  background-color: rgb(189, 237, 247);
   color: #000000;
-  border-color: #409cff;
+  border-color: #09CCF3;
   text-align: left;
   vertical-align: middle;
 }
 .tg .tg-33ws {
-  background-color: #d2e4fc;
+  background-color: rgb(189, 237, 247);
   color: #000000;
-  border-color: #409cff;
+  border-color: #09CCF3;
   text-align: left;
   vertical-align: top;
 }
 .tg .tg-q250 {
   color: #000000;
-  border-color: #409cff;
+  border-color: #09CCF3;
   text-align: left;
   vertical-align: middle;
 }
 .tg .tg-dwuk {
+  
   color: #000000;
-  border-color: #409cff;
+  border-color: #09CCF3;
   text-align: left;
   vertical-align: top;
 }
 @media screen and (max-width: 828px) {
   .tg {
-    width: auto !important;
+    width: auto;
   }
   .tg col {
     width: auto !important;

@@ -1,0 +1,39 @@
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid rgba(0,0,0,0.1);
+    max-width: 70%;
+    margin: auto;
+    padding: 2rem;
+}
+
+.contact-text{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.contact-details{
+    width: 100%;
+}
+
+.contact-details p{
+    display: inline-block;
+    width: 100%;
+    white-space: normal;
+}
+
+@media only screen and (max-width: 828px) {
+    .contact-text{
+        flex-wrap: wrap;
+        margin-left: 0;
+    }
+    .contact-details{
+        margin-left: 0 !important;
+        margin-top: 10px;
+    }
+    .contact-container{
+        max-width: 100%;
+    }
+}

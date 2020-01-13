@@ -1,5 +1,5 @@
 import React from "react"
-
+import "./HuaweiPricelist.css"
 export default () => (
     <div className="tg-wrap">
         <table className="tg" style={{ undefined, tableLayout: `fixed`, width: `100%` }}>
@@ -88,10 +88,10 @@ export default () => (
                 <td className="tg-dwuk">£50</td>
             </tr>
             <tr>
-                <td className="tg-hmp3">Huawei P Smart</td>
-                <td className="tg-hmp3">£75</td>
-                <td className="tg-hmp3">£40</td>
-                <td className="tg-hmp3">Contact For Quote</td>
+                <td className="tg-33ws">Huawei P Smart</td>
+                <td className="tg-33ws">£75</td>
+                <td className="tg-33ws">£40</td>
+                <td className="tg-33ws">Contact For Quote</td>
             </tr>
     </table>
 </div>

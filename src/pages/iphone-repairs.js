@@ -69,8 +69,8 @@ export default () => (
       <Sidebar sidebarSelect="contactSidebar" />
       </div>
       
-      <div className="price-list-content">
-        <div className="price-list-container">
+      <div className="iphone-pricelist-content">
+        <div className="iphone-pricelist-container">
           <h2>iPhone Repair Price List</h2>
           
           <PriceList phoneModel="iPhone 5/5S/5C/SE" phoneImage={ipse} screenPrice="£40" batteryPrice="£30" />
