@@ -1,0 +1,13 @@
+.icon-container{
+    background-color: #F8F8F8;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+@media only screen and (max-width: 490px){
+    .icon-container{
+        width: 100%;
+        margin: 10px 0;
+    }
+}

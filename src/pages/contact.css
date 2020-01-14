@@ -2,32 +2,77 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    border: 1px solid rgba(0,0,0,0.1);
     max-width: 70%;
     margin: auto;
     padding: 2rem;
+    background-color: #3E3E3E;
+    color: white;
+    border-radius: 20px;
+}
+
+.contact-container h1{
+    color: white;
 }
 
 .contact-text{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .contact-details{
     width: 100%;
+    display: flex;
+    
+    
 }
 
+.contact-icons{
+    display:flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+.contact-icons > svg{
+    display: block;
+    margin-bottom: 9px;
+    position: relative;
+    top: 2px;
+}
+
+.contact-icons > svg:nth-child(2){
+   position: relative;
+   top: 27px;
+}
+
+.contact-icons > svg:nth-child(3){
+    position: relative;
+    top: 27px;
+ }
+
 .contact-details p{
-    display: inline-block;
+    display: block;
     width: 100%;
     white-space: normal;
+    color: white !important;
+    position: relative;
+}
+
+
+.details-text{
+    position: relative;
+    left: 30px;
+}
+
+
+h1{
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 828px) {
     .contact-text{
         flex-wrap: wrap;
         margin-left: 0;
+        width: 100%;
     }
     .contact-details{
         margin-left: 0 !important;
@@ -36,4 +81,20 @@
     .contact-container{
         max-width: 100%;
     }
+    .contact-info{
+        width:100%;
+    }
+    .contact-first-sentence{
+        width: 100% !important;
+    }
+    .contact-icons > svg:nth-child(2){
+        position: relative;
+        top: 0px;
+     }
+     
+     .contact-icons > svg:nth-child(3){
+         position: relative;
+         top: 0px;
+      }
+    
 }

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import { library } from "@fortawesome/fontawesome-svg-core"
-import { fab } from "@fortawesome/free-brands-svg-icons"
+import { fab, faAutoprefixer } from "@fortawesome/free-brands-svg-icons"
 import {
   faCheckSquare,
   faCoffee,
@@ -30,7 +30,7 @@ library.add(
 const ListLink = props => (
   <li
     className="header-links"
-    style={{ display: `inline-block`, marginRight: `1rem`, marginBottom: `0` }}
+    style={{ display: `inline-block`, height: `12vh`, marginRight: `1rem`, marginBottom: `0` }}
   >
     <Link
       to={props.to}
@@ -39,6 +39,8 @@ const ListLink = props => (
         color: `#3E3E3E`,
         backgroundImage: `none`,
         fontSize: `18px`,
+        lineHeight: `12vh`,
+        marginBottom: `0`
       }}
     >
       {props.children}
@@ -256,7 +258,7 @@ class Layout extends React.Component {
              <p>© Copyright 2018. Bitguy LTD. | Website created by <a href="https://pandaface.uk/">PandaFace</a></p> 
             <ul style={{ listStyle: `none`, marginBottom: `0` }}>
               <ListLink2 to="/">Home</ListLink2>
-              <ListLink2 to="/about/">Terms</ListLink2>
+              <ListLink2 to="/terms/">Terms</ListLink2>
               <ListLink2 to="/contact/">Contact</ListLink2>
               <ListLink2 to="/iphone-repairs/">iPhone Repairs</ListLink2>
               <ListLink2 to="/huawei-repairs/">Huawei Repairs</ListLink2>

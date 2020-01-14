@@ -62,19 +62,27 @@ button{
     
     display: inline-block;
     border-bottom: 2px solid rgba(71, 86, 202, 0);
+    
 }
 
-.header-links::before, .footer-links::before {
+.footer-links::before {
     content: "/ ";
     color: #08ccf3;
     font-weight: 800;
 }
 
+.header-links a:hover{
+    color: rgba(9, 204, 243) !important;
+    transition: color 0.2s ease;
+    border-bottom: 3px solid #08ccf3;
+    transition: border-bottom 0.2s ease;
+    cursor: pointer;
+}
 
-
-.header-links:hover{
-    border-bottom: 2px solid #08ccf3;
-    transition: border-bottom 1s ease;
+.header-links a{
+    display: inline-block;
+    line-height: 12vh;
+    
 }
 
 .gatsby-image-wrapper{
@@ -121,7 +129,21 @@ button{
     margin: 20px 10px;
 
 }
+button:hover{
+    opacity: 0.9;
+    transition: opacity 0.2 ease;
+}
 
+button{
+    -webkit-box-shadow: 1px 5px 24px 2px rgba(9,204,243,0.48); 
+box-shadow: 1px 5px 24px 2px rgba(9,204,243,0.48);
+}
+
+.iconbox-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
 
 
 .home-reviews p{
@@ -268,6 +290,7 @@ hr{
         display: flex;
         position: fixed;
     }
+    
 
     .burger-box{
         display: block;
@@ -296,6 +319,9 @@ hr{
            
         }
         
+        .iconbox-section{
+            flex-direction: column;
+        }
 
         .whoami-section{
             display: flex;
