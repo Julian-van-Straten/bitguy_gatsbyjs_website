@@ -36,8 +36,8 @@ export default () => (
           
          <div className="contact-icons">   
           <FontAwesomeIcon icon="map-marker-alt" />
-          <FontAwesomeIcon icon="envelope" /> 
-          <FontAwesomeIcon icon="phone" />
+          <FontAwesomeIcon icon="phone" /> 
+          <FontAwesomeIcon icon="envelope" />
         </div>  
         <div className="contact-info">
           Nortoft Road, Bournemouth, BH88QA<br></br>  

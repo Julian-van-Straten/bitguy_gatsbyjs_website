@@ -22,7 +22,7 @@
 .contact-details{
     width: 100%;
     display: flex;
-    
+    font-size: 16px;
     
 }
 
@@ -30,6 +30,7 @@
     display:flex;
     flex-direction: column;
     padding-right: 10px;
+    font-size: 16px;
 }
 
 .contact-icons > svg{
@@ -37,16 +38,17 @@
     margin-bottom: 9px;
     position: relative;
     top: 2px;
+   
 }
 
 .contact-icons > svg:nth-child(2){
    position: relative;
-   top: 27px;
+   top: 24px;
 }
 
 .contact-icons > svg:nth-child(3){
     position: relative;
-    top: 27px;
+    top: 23px;
  }
 
 .contact-details p{

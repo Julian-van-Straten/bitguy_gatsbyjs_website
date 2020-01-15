@@ -9,6 +9,12 @@ import {
   faMapMarkerAlt,
   faPhone,
   faEnvelope,
+  faCalendarCheck,
+  faWrench,
+  faMoneyBill,
+  faMobile,
+  faMobileAlt,
+  faLaptop
 } from "@fortawesome/free-solid-svg-icons"
 import logo from "../Images/bitguy_logo_main.png"
 import footerlogo from "../Images/bitguy_logo_main_white.png"
@@ -24,7 +30,13 @@ library.add(
   faStar,
   faMapMarkerAlt,
   faPhone,
-  faEnvelope
+  faEnvelope,
+  faMoneyBill,
+  faWrench,
+  faCalendarCheck,
+  faMobile,
+  faMobileAlt,
+  faLaptop
 )
 
 const ListLink = props => (

@@ -6,6 +6,7 @@ import Hero from "../components/hero.js"
 import Reviews from "../components/reviews.js"
 import Whoami from "../components/whoami.js"
 import Iconbox from "../components/iconbox"
+import Services from "../components/services"
 
 export default () => (
 
@@ -33,13 +34,14 @@ export default () => (
 
         <Hero />
         <div className="iconbox-section">        
-            <Iconbox icon={"star"} heading={"No-Fix No-Fee"} text={"I am so confident with our service that if I can’t fix the problem, you don’t pay."} />
-            <Iconbox icon={"star"} heading={"Pickup and drop-off"} text={"I can pick it up, drop it off, fix it at your place – or mine. The choice is yours!"} />
-            <Iconbox icon={"star"} heading={"30 Days Warranty"} text={"In the unlikely event your issue resurfaces within 30 days, I’ll fix it free of charge!"} />
+            <Iconbox icon={"money-bill"} heading={"No-fix no-Fee"} text={"I am so confident with our service that if I can’t fix the problem, you don’t pay."} />
+            <Iconbox icon={"wrench"} heading={"Pickup and drop-off"} text={"I can pick it up, drop it off, fix it at your place – or mine. The choice is yours!"} />
+            <Iconbox icon={"calendar-check"} heading={"30 Days warranty"} text={"In the event the issue returns within 30 days, I’ll fix it free of charge."} />
         </div>
 
         <Reviews />
         <Whoami />
+        <Services />
     </Layout>
 
 )

@@ -142,7 +142,7 @@ box-shadow: 1px 5px 24px 2px rgba(9,204,243,0.48);
 .iconbox-section{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 
 
@@ -208,7 +208,7 @@ box-shadow: 1px 5px 24px 2px rgba(9,204,243,0.48);
 
 .whoami-section{
     background-color: rgba(219, 219, 219, 0.2);
-    padding: 30px 20px 0px 20px;
+    padding: 30px 20px 30px 20px;
     margin-top: 30px;
     font-size: 18px;
 }
@@ -232,7 +232,7 @@ h2{
     width: 800px;
     border-radius: 50%;
     position: relative;
-    top: 10px;
+    top: 40px;
     
 }
 
@@ -297,7 +297,7 @@ hr{
     }
     .whoami-section img{
         top: 0;
-        max-width: 90vw;
+        max-width: 300px;
     }
     .whoami-content{
         flex-wrap: wrap;
@@ -307,6 +307,9 @@ hr{
         width: 90vw;
         margin-bottom: 15px;
         border-left: none !important;
+    }
+    .iconbox-section{
+        flex-direction: column;
     }
 
     

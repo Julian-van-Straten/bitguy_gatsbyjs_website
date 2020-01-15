@@ -3,11 +3,48 @@
     padding: 20px;
     text-align: center;
     width: 250px;
+    margin: 0 10px;
+    height: 250px;
+}
+
+.icon-circle{
+    font-size: 40px;
+    position: relative;
+    top: -60px;
+    background-color: #17CDF3;
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+}
+
+.icon-container > h3{
+    position: relative;
+    top: -70px;
+    font-size: 18px;
+}
+
+
+.icon-container > p{
+    position: relative;
+    top: -70px;
+}
+
+@media only screen and (max-width: 828px){
+    .icon-container{
+        width: 100%;
+        margin: 30px 0;
+    }
 }
 
 @media only screen and (max-width: 490px){
     .icon-container{
         width: 100%;
-        margin: 10px 0;
+        margin: 30px 0;
     }
 }
