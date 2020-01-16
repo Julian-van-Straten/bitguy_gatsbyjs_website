@@ -61,7 +61,7 @@ button{
 .header-links{
     
     display: inline-block;
-    border-bottom: 2px solid rgba(71, 86, 202, 0);
+   
     
 }
 
@@ -71,17 +71,24 @@ button{
     font-weight: 800;
 }
 
+.header-links a{
+    -webkit-box-shadow: inset 0px -7px 0px -1px rgba(9, 204, 243, 0); 
+    box-shadow: inset 0px -7px 0px -1px rgba(9, 204, 243, 0) ;
+}
+
 .header-links a:hover{
     color: rgba(9, 204, 243) !important;
     transition: color 0.2s ease;
-    border-bottom: 3px solid #08ccf3;
-    transition: border-bottom 0.2s ease;
+    -webkit-box-shadow: inset 0px -7px 0px -1px rgba(9, 204, 243, 1); 
+    box-shadow: inset 0px -7px 0px -1px rgba(9, 204, 243, 1) ;
+    transition: box-shadow 0.2s ease;
     cursor: pointer;
 }
 
 .header-links a{
     display: inline-block;
-    line-height: 12vh;
+    line-height:  12vh;
+    
     
 }
 
@@ -290,7 +297,25 @@ hr{
         display: flex;
         position: fixed;
     }
-    
+    .mobile-links{
+        border-bottom: 1px solid #08ccf3;
+        line-height: 40px;
+        width: 100%;
+    }
+
+    .mobile-links a:hover{
+        color: rgba(255, 255, 255, 0.7) !important;
+    }
+
+    .mobile-links{
+        width: 100%;
+    }
+
+    .mobile-links > a {
+        line-height: 40px;
+        
+    }
+
 
     .burger-box{
         display: block;

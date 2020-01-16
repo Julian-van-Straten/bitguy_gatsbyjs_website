@@ -4,9 +4,18 @@ import Sidebar from "../components/sidebar"
 import Sidebar2 from "../components/Sidebar2"
 import PcMacPricelist from "../components/PcMacPricelist"
 import "./pc-mac-repairs.css"
+import SEO from "../components/SEO"
 
 export default () => (
   <Layout>
+
+  <SEO 
+    title="PC &amp; Apple Mac Repair Bournemouth - On Site Desktop &amp; Laptop Repairs in Dorset"
+    description="Professional Repair Services For PC and Apple Mac"
+    url="https://bitguy.net/pc-mac-repair"
+    
+  />
+
     <div className="main-container">
       <main className="main-content">
         <h1 style={{ fontSize: `30px`}}>PC and Apple Mac Repairs Bournemouth</h1>
@@ -19,7 +28,14 @@ export default () => (
           <br></br><br></br>
           I deal with everything from Apple Mac hard drive upgrades through to complex network and WiFi issues. 
           <br></br><br></br>
-          See below for a list of the more common services we provide. Please get in contact if you have any questions.
+          <div>
+            <iframe title="Building a gaming PC for under £300" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbitguyltd%2Fvideos%2F838566589822985%2F&show_text=0&width=560" width="560" height="315" style={{ border: `none`, overflow: `hidden` }} scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+          </div>
+          <p className="caption">Fortnite gaming PC build for under £300</p>
+          <br></br><br></br>
+            See below for a list of the more common services we provide. Please get in contact if you have any questions.
+          
+          <br></br><br></br>
         </p>
           <p>
             <br></br>

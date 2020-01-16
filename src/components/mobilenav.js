@@ -14,6 +14,8 @@ export default (props) => {
                     <ListLink to="/iphone-repairs">iPhone Repairs</ListLink>
                     <ListLink to="/huawei-repairs/">Huawei Repairs</ListLink>
                     <ListLink to="/pc-mac-repairs/">PC/Mac Repairs</ListLink>
+                    <ListLink to="/contact/">Contact</ListLink>
+                    <ListLink to="/terms/">Terms</ListLink>
 
 
                 </ul>

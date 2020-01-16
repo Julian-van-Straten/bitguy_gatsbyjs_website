@@ -4,9 +4,19 @@ import "./huawei-repairs.css"
 import Sidebar from "../components/sidebar"
 import Sidebar2 from "../components/Sidebar2"
 import HuaweiPricelist from "../components/HuaweiPricelist"
+import huaweiFront1 from "../Images/huawei/screen-fix-huawei.jpg"
+import huaweiFront2 from "../Images/huawei/screen-fix-huawei2.jpg"
+import huaweiBack from "../Images/huawei/rear-panel-fix-huawei.jpg"
+import SEO from "../components/SEO"
 
 export default () => (
   <Layout>
+  <SEO 
+    title="Huawei Repair Bournemouth - Cheap Cracked Huawei Screen &amp; Battery Charging Repairs in Dorset"
+    description="Professional Repair Services For Huawei Phones"
+    url="https://bitguy.net/huawei-repair"
+    
+  />
     <div className="main-container">
       <main className="main-content">
         <h1>Huawei Repairs Bournemouth</h1>
@@ -26,6 +36,17 @@ export default () => (
           Not many shops like to fix them due to the way they are put together. The time it takes to get through the strong adhesive holding them together means it's simply not worth it for most repair services.
           <br></br> <br></br>
           But with the right tools and techniques, Huawei repairs are simple. And over the past few years I have perfected these techniques to the point where I can do them in my sleep!
+          <div className="image-box-huawei">
+            <div className="image-box-box">
+              <img src={huaweiFront1} alt="huawei screen repair"></img>
+            </div>
+            <div className="image-box-box">
+              <img src={huaweiBack} alt="huawei back repair"></img>
+            </div>
+            <div className="image-box-box">
+              <img src={huaweiFront2} alt="huawei screen repair"></img>
+            </div>
+          </div>
         </p>
           <p>
             <br></br>

@@ -7,10 +7,12 @@ import Reviews from "../components/reviews.js"
 import Whoami from "../components/whoami.js"
 import Iconbox from "../components/iconbox"
 import Services from "../components/services"
+import SEO from "../components/SEO"
 
 export default () => (
 
     <Layout>
+    <SEO />
         
             <BackgroundSlider 
             query={useStaticQuery(graphql`

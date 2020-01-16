@@ -25,6 +25,7 @@ h1{
 .main-container, .price-list-content {
     display: flex;
     
+    
 }
 
 
@@ -52,6 +53,25 @@ hr{
 
 .price-list-content{
     height:100%;
+}
+.image-box-huawei > .image-box-box > img{
+    -webkit-box-shadow: 1px 5px 24px 2px rgba(0,0,0,0.2); 
+    box-shadow: 1px 5px 24px 2px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    
+}
+
+.image-box-box{
+    width: 150px;
+    height: 150px;
+    margin: 3px;
+}
+
+.image-box-huawei{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 

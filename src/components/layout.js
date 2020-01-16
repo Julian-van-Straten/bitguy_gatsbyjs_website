@@ -22,6 +22,7 @@ import Burger from "./burger.js"
 import MobileNav from "./mobilenav.js"
 import Backdrop from "./Backdrop/Backdrop"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import SEO from "./SEO"
 
 library.add(
   fab,
@@ -120,7 +121,9 @@ class Layout extends React.Component {
 
     const { children } = this.props
     return (
+      
       <div>
+      
         <div className="above-header">
               <p style={{ display: `flex`, fontSize: `14px` }}>
                 <div

@@ -12,10 +12,19 @@ import ip8p from "../Images/pricelist/ip8p.png"
 import ipxr from "../Images/pricelist/xr.png"
 import x from "../Images/pricelist/X.png"
 import Sidebar2 from "../components/Sidebar2"
+import iphone7 from "../Images/iphone/iphone-7-plus.jpg"
+import iphonex from "../Images/iphone/iphone-x.jpg"
+import lab from "../Images/iphone/lab.jpg"
+import SEO from "../components/SEO"
 
 export default () => (
   <Layout>
- 
+  <SEO 
+    title="iPhone Repair Bournemouth - Cheap Cracked iPhone Screen &amp; Broken Charging Repairs in Dorset"
+    description="Professional Repair Services For iPhones & More"
+    url="https://bitguy.net/iphone-repair"
+    
+  />
 
     <div className="main-container">
     <main className="main-content">
@@ -47,6 +56,14 @@ export default () => (
       <h2>Cracked Screen, Battery Replacements & Charger Port Repairs</h2>
       When your iPhone is broken, there’s a very strong probability that the faults will be attributed to your screen, battery, or charger point. Our comprehensive range of services can treat most cosmetic damage and battery-related issues to make your smartphone feel as good as new.
       </p><p>
+      <div className="image-box-huawei">
+            
+            <div className="image-box-box-iphone">
+              <img src={lab} alt="bitguy-lab"></img>
+              <p className="caption">Bitguy's iPhone job queue for the day</p>
+            </div>
+           
+          </div>
         <br></br>
       <h2 className="heading2">Screen Fixes</h2>
       If you have a cracked screen that is obstructing your view or impacting the touch screen capabilities, we can help. With the choice of high quality aftermarket or original Apple screens, we can remove and dispose of your cracked screen before installing a new one that offers the same look and feel as the original Apple solution.

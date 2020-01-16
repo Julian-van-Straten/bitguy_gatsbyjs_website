@@ -1,9 +1,15 @@
 import React from "react"
 import "./terms.css"
 import Layout from "../components/layout"
+import SEO from "../components/SEO"
 
 export default () => (
     <Layout>
+    <SEO 
+      title="Terms of Service"
+      description="Terms of service for Bitguy LTD"
+      url="https://bitguy.net/terms"
+    />
   <div className="terms-container">
     <h1 className="terms-h1">Bitguy LTD Terms and Conditions</h1>
     <p>

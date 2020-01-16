@@ -14,9 +14,17 @@ import {
 } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./contact.css"
+import SEO from "../components/SEO"
 
 export default () => (
   <Layout>
+
+    <SEO 
+      title="Book a repair - Get in contact"
+      description="Booking and contact page for iPhone, Huawei and PC repair Bournemouth"
+      url="https://bitguy.net/contact"
+    />
+
     <div className="contact-container">
       <div style={{ textAlign: `center`, marginBottom:`10px` }}>
         <h1>Get in touch</h1>

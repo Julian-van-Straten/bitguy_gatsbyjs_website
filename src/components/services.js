@@ -19,7 +19,7 @@ export default () => (
                     <li>Charger Ports</li>
                     <li>And more</li>
                 </ul>
-                <button>Read more</button>
+                <a href="/iphone-repairs/"><button >Read more</button></a>
             </div>
             <div className="services-box">
                 <FontAwesomeIcon icon="mobile-alt" />
@@ -30,7 +30,7 @@ export default () => (
                     <li>Charger Ports</li>
                     <li>And more</li>
                 </ul>
-                <button>Read more</button>
+                <a href="/huawei-repairs/"><button>Read more</button></a>
             </div>
             <div className="services-box">
                 <FontAwesomeIcon icon="laptop" />
@@ -41,7 +41,7 @@ export default () => (
                     <li>Upgrades</li>
                     <li>And more</li>
                 </ul>
-                <button>Read more</button>
+                <a href="/pc-mac-repairs/"><button>Read more</button></a>
             </div>
         </div>
         
