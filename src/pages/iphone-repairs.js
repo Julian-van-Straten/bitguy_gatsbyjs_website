@@ -12,8 +12,6 @@ import ip8p from "../Images/pricelist/ip8p.png"
 import ipxr from "../Images/pricelist/xr.png"
 import x from "../Images/pricelist/X.png"
 import Sidebar2 from "../components/Sidebar2"
-import iphone7 from "../Images/iphone/iphone-7-plus.jpg"
-import iphonex from "../Images/iphone/iphone-x.jpg"
 import lab from "../Images/iphone/lab.jpg"
 import SEO from "../components/SEO"
 

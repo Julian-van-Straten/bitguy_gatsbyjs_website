@@ -1,17 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
 import ContactForm2 from "../components/ContactForm2"
-import { library } from "@fortawesome/fontawesome-svg-core"
-import { fab } from "@fortawesome/free-brands-svg-icons"
-import {
-  faCheckSquare,
-  faCoffee,
-  faStar,
-  faMapMarkerAlt,
-  faPhone,
-  faEnvelope,
-  faAlignCenter,
-} from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import "./contact.css"
 import SEO from "../components/SEO"
