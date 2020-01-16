@@ -29,7 +29,7 @@ export default () => (
           I deal with everything from Apple Mac hard drive upgrades through to complex network and WiFi issues. 
           <br></br><br></br>
           <div>
-            <iframe title="Building a gaming PC for under £300" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbitguyltd%2Fvideos%2F838566589822985%2F&show_text=0&width=560" width="560" height="315" style={{ border: `none`, overflow: `hidden` }} scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
+            <iframe title="Building a gaming PC for under £300" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fbitguyltd%2Fvideos%2F838566589822985%2F&show_text=0&width=560" width="100%" height="315" style={{ border: `none`, overflow: `hidden` }} scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
           </div>
           <p className="caption">Fortnite gaming PC build for under £300</p>
           <br></br><br></br>
