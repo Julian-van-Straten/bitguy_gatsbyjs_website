@@ -223,7 +223,7 @@ class Layout extends React.Component {
             <div>
               <img src={footerlogo} alt="bitguy company logo"></img>
               <p style={{ color: `white` }}>
-                Registered in England & Whales.
+                Registered in England & Wales.
                 <br></br>
                 Company Nr. 11466822
               </p>

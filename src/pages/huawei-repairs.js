@@ -22,7 +22,7 @@ export default () => (
         <h1>Huawei Repairs Bournemouth</h1>
         <hr></hr>
         <br></br>
-        <p className="tagline">The best Huawei repair service in dorset</p>
+        <p className="tagline">The best Huawei repair service in Dorset</p>
         <br></br>
         <p>
           Huawei is one of the most popular mobile phones in today's market, and for a good reason!

@@ -11,6 +11,7 @@ import ip8 from "../Images/pricelist/ip8.png"
 import ip8p from "../Images/pricelist/ip8p.png"
 import ipxr from "../Images/pricelist/xr.png"
 import x from "../Images/pricelist/X.png"
+import ip11 from "../Images/pricelist/ip11.jpeg"
 import Sidebar2 from "../components/Sidebar2"
 import lab from "../Images/iphone/lab.jpg"
 import SEO from "../components/SEO"
@@ -26,7 +27,7 @@ export default () => (
 
     <div className="main-container">
     <main className="main-content">
-      <h1>iPhone Repairs Bournemouth</h1>
+      <h1 style={{ fontSize: `30px` }}>Best iPhone Repairs in Bournemouth</h1>
       <hr></hr>
       <br></br>
       <p className="tagline">Giving you a second bite of the Apple</p>
@@ -88,14 +89,17 @@ export default () => (
         <div className="iphone-pricelist-container">
           <h2>iPhone Repair Price List</h2>
           
-          <PriceList phoneModel="iPhone 5/5S/5C/SE" phoneImage={ipse} screenPrice="£40" batteryPrice="£30" />
-          <PriceList phoneModel="iPhone 6" phoneImage={ip6} screenPrice="£50" batteryPrice="£30" />
-          <PriceList phoneModel="iPhone 6+/6S" phoneImage={ip6s} screenPrice="£60" batteryPrice="£30" />
-          <PriceList phoneModel="iPhone 6S+/7" phoneImage={ip7} screenPrice="£70" batteryPrice="£30" />
-          <PriceList phoneModel="iPhone 7+/8" phoneImage={ip8} screenPrice="£80" batteryPrice="£30" />
-          <PriceList phoneModel="iPhone 8+" phoneImage={ip8p} screenPrice="£80" batteryPrice="£30" />
-          <PriceList phoneModel="iPhone XR" phoneImage={ipxr} screenPrice="£200" batteryPrice="£40" />
-          <PriceList phoneModel="iPhone X/XS" phoneImage={x} screenPrice="£255" batteryPrice="£40" />
+          <PriceList phoneModel="iPhone 5/5S/5C/SE" phoneImage={ipse} screenPrice="£35" batteryPrice="£30" />
+          <PriceList phoneModel="iPhone 6" phoneImage={ip6} screenPrice="£45" batteryPrice="£30" />
+          <PriceList phoneModel="iPhone 6+/6S" phoneImage={ip6s} screenPrice="£50" batteryPrice="£30" />
+          <PriceList phoneModel="iPhone 6S+/7" phoneImage={ip7} screenPrice="£60" batteryPrice="£30" />
+          <PriceList phoneModel="iPhone 7+/8" phoneImage={ip8} screenPrice="£65" batteryPrice="£30" />
+          <PriceList phoneModel="iPhone 8+" phoneImage={ip8p} screenPrice="£70" batteryPrice="£30" />
+          <PriceList phoneModel="iPhone XR" phoneImage={ipxr} screenPrice="£100" batteryPrice="£40" />
+          <PriceList phoneModel="iPhone X" phoneImage={x} screenPrice="£170" batteryPrice="£40" />
+          <PriceList phoneModel="iPhone XS" phoneImage={x} screenPrice="£190" batteryPrice="£50" />
+          <PriceList phoneModel="iPhone XS MAX" phoneImage={x} screenPrice="£205" batteryPrice="£80" />
+          <PriceList phoneModel="iPhone 11" phoneImage={ip11} screenPrice="£215" batteryPrice="N/A" classname="ip11" />
           </div>
           <Sidebar2 />
       </div>

@@ -9,23 +9,41 @@
 module.exports = {
   
   siteMetadata: {
-    title: "iPhone, Huawei and PC Repairs Bournemouth",
-    titleTemplate: "%s · Bitguy",
+    title: "Welcome to Bitguy",
     description:
       "Bitguy is the best iPhone, Huawei and PC repair service in Bournemouth, Dorset.",
     url: "https://www.bitguy.net", // No trailing slash allowed!
     image: "./bg-car-lq-1024x768.jpg", // Path to your image you placed in the 'static' folder
-    
+    siteUrl: 'https://bitguy.net',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-canonical-urls`,
+      options: {
+        siteUrl: `https://bitguy.net`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-facebook-pixel`,
+      options: {
+        pixelId: '1821923471438687',
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-140651655-1",
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: "Bitguy iPhone, Huawei and PC Repair Bournemouth",
         short_name: "Bitguy",
         start_url: "/",
-        background_color: "#6b37bf",
-        theme_color: "#6b37bf",
+        background_color: "#09CCF3",
+        theme_color: "#09CCF3",
         // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
         // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
         display: "standalone",
@@ -39,6 +57,15 @@ module.exports = {
     
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://bitguy.net',
+        sitemap: 'https://bitguy.net/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
     
     {
       resolve: `gatsby-plugin-typography`,

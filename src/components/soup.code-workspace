@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"path": "/Users/Jules/JS_Port"
+		},
+		{
+			"path": "/Users/Jules/tictactoe_react/my-app"
+		},
+		{
+			"path": "/Users/Jules/react_first_project/first-webapp"
+		},
+		{
+			"path": "/Users/Jules/gatsby/hello-world"
+		},
+		{
+			"path": "/Users/Jules/bitguy_gatsby/gatsby-tailwind-serif-bitguy"
+		},
+		{
+			"path": "/Users/Jules/gatsby/tutorial-part-three"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "JS_Port"
+	}
+}

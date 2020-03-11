@@ -7,7 +7,7 @@ export default (props) => (
         <div className="heading-box">
             <h3>{props.phoneModel}</h3>
         </div> 
-        <img src={props.phoneImage} alt="Phone model"></img>
+        <img src={props.phoneImage} alt="Phone model" className={props.classname}></img>
         <ul>
             <li>Screen Repair: {props.screenPrice}</li>
             <li>Battery Replacement: {props.batteryPrice}</li>

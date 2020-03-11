@@ -17,55 +17,55 @@ export default () => (
             </tr>
             <tr>
                 <td className="tg-gk0k">Huawei P30 Pro</td>
-                <td className="tg-gk0k">£330</td>
+                <td className="tg-gk0k">£270</td>
                 <td className="tg-33ws">Contact For Quote</td>
                 <td className="tg-33ws">£50</td>
             </tr>
             <tr>
                 <td className="tg-q250">Huawei P30</td>
-                <td className="tg-q250">£220</td>
+                <td className="tg-q250">£250</td>
                 <td className="tg-dwuk">£50</td>
                 <td className="tg-dwuk">£50</td>
             </tr>
             <tr>
                 <td className="tg-gk0k">Huawei P30 Lite</td>
-                <td className="tg-gk0k">£110</td>
+                <td className="tg-gk0k">£95</td>
                 <td className="tg-33ws">£50</td>
                 <td className="tg-33ws">£50</td>
             </tr>
             <tr>
                 <td className="tg-q250">Huawei P20 Pro<br></br></td>
-                <td className="tg-q250">£280</td>
+                <td className="tg-q250">£270</td>
                 <td className="tg-dwuk">£50</td>
                 <td className="tg-dwuk">£50</td>
             </tr>
             <tr>
                 <td className="tg-33ws">Huawei P20<br></br></td>
-                <td className="tg-33ws">£160</td>
+                <td className="tg-33ws">£90</td>
                 <td className="tg-33ws">£50</td>
                 <td className="tg-33ws">£50</td>
             </tr>
             <tr>
                 <td className="tg-dwuk">Huawei P20 Lite</td>
-                <td className="tg-dwuk">£95</td>
+                <td className="tg-dwuk">£80</td>
                 <td className="tg-dwuk">Contact For Quote</td>
                 <td className="tg-dwuk">£50</td>
             </tr>
             <tr>
                 <td className="tg-33ws">Huawei Mate 20 Pro</td>
-                <td className="tg-33ws">Contact For Quote</td>
+                <td className="tg-33ws">£225</td>
                 <td className="tg-33ws">£50</td>
                 <td className="tg-33ws">£50</td>
             </tr>
             <tr>
                 <td className="tg-dwuk">Huawei Mate 20</td>
-                <td className="tg-dwuk">£175</td>
+                <td className="tg-dwuk">£140</td>
                 <td className="tg-dwuk">Contact For Quote</td>
                 <td className="tg-dwuk">£50</td>
             </tr>
             <tr>
                 <td className="tg-33ws">Huawei Mate 20 Lite</td>
-                <td className="tg-33ws">£90</td>
+                <td className="tg-33ws">£80</td>
                 <td className="tg-33ws">Contact For Quote</td>
                 <td className="tg-33ws">£50</td>
             </tr>
@@ -77,14 +77,14 @@ export default () => (
             </tr>
             <tr>
                 <td className="tg-33ws">Huawei Mate 10</td>
-                <td className="tg-33ws">£90</td>
+                <td className="tg-33ws">£85</td>
                 <td className="tg-33ws">Contact For Quote</td>
                 <td className="tg-33ws">£50</td>
             </tr>
             <tr>
                 <td className="tg-dwuk">Huawei P Smart 2019</td>
-                <td className="tg-dwuk">Contact For Quote</td>
-                <td className="tg-dwuk">Contact For Quote</td>
+                <td className="tg-dwuk">£90</td>
+                <td className="tg-dwuk">£50</td>
                 <td className="tg-dwuk">£50</td>
             </tr>
             <tr>

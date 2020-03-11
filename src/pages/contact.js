@@ -9,14 +9,14 @@ export default () => (
   <Layout>
 
     <SEO 
-      title="Book a repair - Get in contact"
+      title="Get in Contact"
       description="Booking and contact page for iPhone, Huawei and PC repair Bournemouth"
       url="https://bitguy.net/contact"
     />
 
     <div className="contact-container">
       <div style={{ textAlign: `center`, marginBottom:`10px` }}>
-        <h1>Get in touch</h1>
+        <h1>Get in Touch</h1>
         
         <br></br>
         <hr style={{ width: `40px`, margin: `0 auto` }}></hr>

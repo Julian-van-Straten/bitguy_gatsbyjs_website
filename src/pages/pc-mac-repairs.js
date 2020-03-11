@@ -38,28 +38,28 @@ export default () => (
           <br></br><br></br>
         </p>
           <p>
-            <br></br>
+            
             <h2 className="heading2">Data Backup</h2>
               There are endless solutions available for backing up your precious data. From local, to cloud, to simple data transfers I can work out which one would best suit your needs, and set it all up for you!
           </p>
           <p>
-            <br></br>
+            
             <h2 className="heading2">Hardware Repairs & Replacements</h2>
             PC not turning on? Making funny beeping sounds? Screen flickering? Chances are it's a hardware issue. I will diagnose and quote you on a repair or replacement part free of charge!
           </p>
           <p>
-            <br></br>
+            
             <h2 className="heading2">PC and MAC Upgrades</h2>
               If you're running low on disk space, need more memory, want a faster CPU or a full system upgrade, we've got you. Bitguy has done hundreds of successful Mac and PC hardware upgrades.
             </p>
           <p>
           <p>
-            <br></br>
+            
             <h2 className="heading2">Network solutions</h2>
             I am a Cisco Certified Engineer with years of experience supporting large businesses. I can design and set up your new network, improve your existing one, or solve any issues you may have.
           </p>
           <p>
-            <br></br>
+           
             <h2>Give Us A Call Today</h2>
             You can see the prices for some of our most common repair
             jobs below. Alternatively, give our Bournemouth base a call on 0741
